@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Image Grid</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Agrega esta regla CSS para establecer una altura fija para las imágenes */
+    .card-img-top {
+      height: 400px; /* Puedes ajustar esta altura según tus necesidades */
+      object-fit: cover; /* Ajusta el tamaño de la imagen para llenar el contenedor sin distorsionarla */
+    }
+  
+    .badge-preventa {
+      font-size: 1.5em;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .badge-estreno {
+      font-size: 1.5em;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      background-color: blue;
+    }
+  
+    .card .card-body .card-title .text-primary {
+      color: black;
+    }
+
+   
+    .custom-col {
+      background-color: #ffe6e6; /* Fondo estilo Barbie */
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .btn-round {
+      border-radius: 10%;
+      transition: transform 0.3s;
+    }
+
+    .btn-round:hover {
+      transform: scale(1.1);
+    }
+
+    /* Estilos para el navbar */
+    .navbar {
+      background-color: #ffc0cb; /* Color de fondo del navbar un tono más claro */
+    }
+
+    .navbar-brand {
+      margin-left: 15px; /* Ajustar el margen izquierdo */
+    }
+
+    .navbar-nav {
+      margin-right: 15px; /* Ajustar el margen derecho */
+    }
+  </style>
+</head>
+<body style="background-color: #ffe6e6;">
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffc0cb;">
+  <a class="navbar-brand" href="#">MegaCine</a>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="boot.html">Películas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="tercero.html">Historia</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contacto.html">Formulario</a>
+    </li>
+  </ul>
+</nav>
+
+ 
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mb-4 custom-col">
+      <div class="card">
+        <p class="card-text"><span class="badge badge-warning badge-preventa">Preventa</span></p>
+        <img src="img/spy.png" class="card-img-top" alt="SPY X FAMILY CODE: WHITE">
+        <div class="card-body">
+          <h5 class="card-title">SPY X FAMILY CODE: WHITE</h5>
+          <a href="#" class="btn btn-primary btn-round">Comprar Ticket</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4 custom-col">
+      <div class="card">
+        <p class="card-text"><span class="badge badge-warning badge-estreno">Estreno</span></p>
+        <img src="img/ghost.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GHOSTBUSTERS APOCALIPSIS FANTASMA</h5>
+          <a href="#" class="btn btn-primary btn-round">Comprar Ticket</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-3 mb-4 custom-col">
+      <div class="card">
+        <p class="card-text"><span class="badge badge-warning badge-estreno">Estreno</span></p>
+        <img src="img/chosen.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS ELEGIDOS, T4 EPISODIOS 5 y 6</h5>
+          <a href="#" class="btn btn-primary btn-round">Comprar Ticket</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3 mb-4 custom-col">
+      <div class="card">
+        <p class="card-text"><span class="badge badge-warning badge-estreno">Estreno</span></p>
+        <img src="img/kong.png" class="card-img-top" alt="GODZILLA X KONG: EL NUEVO IMPERIO">
+        <div class="card-body">
+          <h5 class="card-title">GODZILLA X KONG: EL NUEVO IMPERIO</h5>
+          <a href="#" class="btn btn-primary btn-round">Comprar Ticket</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3 mb-4 custom-col">
+      <div class="card">
+        <img src="img/cabrini.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CABRINI</h5>
+          <a href="#" class="btn btn-primary btn-round">Comprar Ticket</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4 custom-col">
+      <div class="card">
+        <img src="img/profecia.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LA PRIMERA PROFECÍA</h5>
+          <a href="#" class="btn btn-primary btn-round">Comprar Ticket</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4 custom-col">
+      <div class="card">
+        <img src="img/LAZOS-DE-VIDA-278x416.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LAZOS DE VIDA</h5>
+          <a href="#" class="btn btn-primary btn-round">Comprar Ticket</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4 custom-col">
+      <div class="card">
+        <img src="img/panda.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">KUNG FU PANDA 4</h5>
+          <a href="#" class="btn btn-primary btn-round">Comprar Ticket</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
